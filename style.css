@@ -1,0 +1,339 @@
+body
+{
+    background-image: url(./images/retro-living-room-interior-design.jpg);
+    background-size: 1536px 760px;
+    background-repeat: no-repeat;
+
+}
+
+/* ----------navbar---------- */
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.nav-logo
+{
+    margin-top: 20px;
+}
+.list
+{
+    margin-left: 100px;
+}
+.list-item
+{
+  display: inline;
+  margin-left: 50px;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.nav-right:hover,.list-item:hover
+{
+    cursor: pointer;
+}
+.nav-right
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -100px;
+    font-size: 18px;
+}
+
+.phone-Call 
+{
+   width: 25px;
+   margin-right: 7px;
+}
+.nav-bottom-border
+{
+    position: absolute;
+    right: 87px;
+    width: 848px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.menu
+{
+    background-color: #ffffff;
+    height: 40px;
+    display: none;
+}
+/* ----------------hero-container--------------- */
+.hero-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 140px;
+    color: #ffffff;
+    width: 100vw;
+}
+
+/* ---------hero-left----------  */
+.hero-left
+{
+    width: 50vw;
+}
+.heading
+{
+    font-size: 70px;
+    margin-top: 0px;
+}
+.button-large
+{ 
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    padding: 15px 40px;
+    margin-top: -15px;
+}
+/* ----------hero-right---------- */
+.hero-right
+{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    /* gap: 105px; */
+    gap: 35px;
+    font-size: 17px;
+    width: 30vw;
+}
+/* ----------hero-right top---------- */
+.right-top
+{
+    align-self: center; 
+    background-color: #a3a3e04d;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-left: 50px;
+    width: 190px;
+}
+.puzzle-piece
+{
+    width: 25px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+}
+.right-top p
+{
+    margin-top: 0px;
+}
+.right-top span
+{
+    font-size: 20px;
+}
+/* ---------------screen 1536px * 753px static------------------------- 
+.rectangle
+{
+    position: absolute;
+    right: 195px;
+    bottom: 288px;
+    width: 1px;
+    height: 70px;
+    background-color: #ffffff;
+}
+.circle
+{
+    position: absolute;
+    right: 188px;
+    bottom: 280px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+} */
+/* ----------hero-right bottom---------- */
+.right-bottom
+{
+    background-color: #a3a3e04d;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    width: 190px;
+   
+   
+}
+.lightbulb
+{
+    width: 25px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+}
+.right-bottom p
+{
+    margin-top: 0px;
+}
+/* ---------------screen 1536 * 753 static------------------------- 
+  .rectangle1
+{
+    position: absolute;
+    bottom: 185px;
+    right: 190px; 
+    width: 70px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.circle1
+{
+    position: absolute;
+    bottom: 178px;
+    right: 185px;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+} */
+/* ----------------------------------------------@media screen-------------------------------------------  */
+@media screen and (min-width: 1024px) 
+{
+    .list
+    {
+        margin-left: 0px;
+    }
+    .list-item
+    {
+    margin-left: 0px;
+    margin-right: 20px;
+    }
+}
+@media screen and (max-width: 1235px)
+{
+    .heading 
+    {
+        font-size: 60px;
+    }
+} 
+@media screen and (max-width: 1100px)
+{
+    .heading 
+    {
+        font-size: 50px;
+    }
+} 
+@media screen and (min-width: 1400px) 
+{
+    .list
+    {
+        margin-left: 0px;
+    }
+    .list-item
+    {
+    margin-left: 50px;
+    margin-right: 20px;
+    }
+}
+@media screen and (min-width: 880px) and (max-width: 1024px)
+{
+    .list
+    {
+        display: none;
+    }
+    .nav-right
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+    }
+    .nav-bottom-border
+    {
+        display: none;
+    }
+    .hero-container
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        text-align: center
+    }
+    .hero-right
+    {
+        gap: 10px;
+    
+    }
+    .right-top
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 880px)
+{
+    .list
+    {
+        display: none;
+    }
+    .nav-right
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+    }
+    .nav-bottom-border
+    {
+        display: none;
+    }
+    .hero-container
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center
+    }
+    .heading
+    {
+        font-size: 40px;
+    }
+    .button-large
+    {
+        font-size: 15px;
+    }
+    .hero-right
+    {
+        gap: 8px;
+    
+    }
+    .right-top
+    {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 660px)
+{
+    .right-top
+    {
+        padding-right: 40px;
+    }
+    .right-top p
+    {
+        font-size: 13px;
+    }
+    .right-top span
+    {
+        font-size: 15px;
+    }
+
+    .right-bottom
+    {
+        font-size: 13px;
+        padding-right: 40px;
+        margin-left: -25px;
+    }
+}
